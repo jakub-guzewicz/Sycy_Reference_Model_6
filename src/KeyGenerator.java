@@ -2,10 +2,11 @@ public class KeyGenerator {
 
 
     private int[] asciiArray = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',' ',',','.','!','-','?'};
+//    private int state = 0b0_11010_00100_10011_10010_00100_00001_1; // state for lfsr to get "Hulk is the best" int 1st iteration
     private int state = 1;
     private int bit = 1;
-    private final int FIVE_BIT_MASK = 0x0000001f;
-    private final int THRITY_BIT_MASK = 0x3fffffff;
+    private final static int FIVE_BIT_MASK = 0x0000001f;
+    private final static int THRITY_BIT_MASK = 0x3fffffff;
     private Integer[] key = {0x48756c6b,0x20697320,0,0}; //first two Integers are "Hulk is "
     private int lfsr(){
         bit = ((state >>> 0) ^ (state >>> 1) ^ (state >>> 4) ^ (state >>> 6));
