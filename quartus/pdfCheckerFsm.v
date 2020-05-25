@@ -4,10 +4,11 @@ module pdfCheckerFsm(
 	input ena,
 	input [127:0]givenKey,
 	input [63:0]data,
-	output [127:0]foundKey
+	output [127:0]foundKey,
+	output rdy
 );
 	reg state_reg, state_next;
-	reg [127:0]keyReg;
+	reg [127:0]keyReg, nextKeyReg;
 	localparam finding = 1'b0, foundState = 1'b1;
 	
 	
@@ -15,23 +16,41 @@ module pdfCheckerFsm(
 	always@(posedge clk or posedge rst)
 	begin
 		if(rst)
+			begin
 			state_reg <= finding;
+			keyReg <= nextKeyReg;
+			end
 		else if (ena)
+			begin
 			state_reg <= state_next;
+			keyReg <= nextKeyReg;
+			end
 	end
 	
 	//Next state logic
 	always@(*)
+	begin
+		nextKeyReg = givenKey;
 		case(state_reg)
-			finding:	if(data[63:8]=="%PDF-1.")	
-							begin
-								state_next = foundState;
-								keyReg = givenKey;
-							end
-						else state_next = finding;
-			foundState:	state_next = foundState;
+			
+			finding:	
+					begin
+						if(data[63:8]=="%PDF-1.")	
+							state_next = foundState;
+						else 
+							state_next = finding;
+						//rdy = 1'b0;	
+					end
+						
+			foundState:
+					begin
+					state_next = finding;
+					//rdy = 1'b1;
+					end
 		endcase
+	end
 	assign foundKey = keyReg;
+	assign rdy = state_next;
 
 endmodule
 

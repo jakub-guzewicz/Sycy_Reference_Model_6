@@ -3,9 +3,11 @@ module hulkFinder(
 	input ena,
 	input rst,
 	input mode,
-	input [63:0] cipher,
-	output [127:0] cipherKey
-	
+	//input [63:0] cipher,
+	input [31:0] dataA, dataB,
+	output [31:0] resultA, resultB, resultC, resultD,
+	//output [127:0] cipherKey,
+	output rdy
 	);
 	
 	//REG/WIRE
@@ -87,7 +89,8 @@ module hulkFinder(
 		.ena(ena),
 		.givenKey(key),
 		.data(decrypted),
-		.foundKey(cipherKey)		
+		.foundKey({resultA,resultB,resultC,resultD}),	
+		.rdy(rdy)
 	);
 //Second version D:
 //	with wires
@@ -129,7 +132,7 @@ module hulkFinder(
 	singleTeaBlock tea0(
 		.key(key),
 		.clk(clk),
-		.inData(cipher),
+		.inData({dataA,dataB}),
 		.sum(32'hc6ef3720),
 		.outData(teaWire01)
 	);
