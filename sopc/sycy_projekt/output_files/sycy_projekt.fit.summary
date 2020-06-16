@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Jun 16 14:23:39 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : sycy_projekt
+Top-level Entity Name : sycy_projekt
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 12,198 / 114,480 ( 11 % )
+    Total combinational functions : 12,056 / 114,480 ( 11 % )
+    Dedicated logic registers : 3,458 / 114,480 ( 3 % )
+Total registers : 3458
+Total pins : 18 / 529 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 535,552 / 3,981,312 ( 13 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
