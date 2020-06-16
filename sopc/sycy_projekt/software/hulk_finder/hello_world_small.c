@@ -63,7 +63,7 @@ int main(void)
 
     if(status_sw & 0x01){ 							// jesli przelacznik SW[0]=1
 		PERF_BEGIN(PERFORMANCE_COUNTER_0_BASE,1); 	// start liczenia czasu
-		hulkFinderState = ALT_CI_HULK_FINDER_0(dataA,dataB);	// wywolanie naszej custom instruction
+		hulkFinderState = ALT_CI_HULK_FINDER_V2_0(dataA,dataB);	// wywolanie naszej custom instruction
 		PERF_END(PERFORMANCE_COUNTER_0_BASE,1);		// stop liczenia sekcji 1
     }
     printKeyFromData(hulkFinderState);

@@ -1,5 +1,5 @@
 EDA Netlist Writer report for sycy_projekt
-Tue Jun 16 14:24:00 2020
+Tue Jun 16 20:19:48 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Jun 16 14:24:00 2020 ;
+; EDA Netlist Writer Status ; Successful - Tue Jun 16 20:19:48 2020 ;
 ; Revision Name             ; sycy_projekt                          ;
 ; Top-level Entity Name     ; sycy_projekt                          ;
 ; Family                    ; Cyclone IV E                          ;
@@ -66,13 +66,13 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+-----------------------------------------------------------------------+
-; Simulation Generated Files                                            ;
-+-----------------------------------------------------------------------+
-; Generated Files                                                       ;
-+-----------------------------------------------------------------------+
-; C:/Users/Kaz/Desktop/sycy_projekt/simulation/modelsim/sycy_projekt.vo ;
-+-----------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                           ;
++------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                      ;
++------------------------------------------------------------------------------------------------------+
+; E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/sycy_projekt.vo ;
++------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -81,14 +81,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Jun 16 14:23:56 2020
+    Info: Processing started: Tue Jun 16 20:19:44 2020
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off sycy_projekt -c sycy_projekt
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file sycy_projekt.vo in folder "C:/Users/Kaz/Desktop/sycy_projekt/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file sycy_projekt.vo in folder "E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4712 megabytes
-    Info: Processing ended: Tue Jun 16 14:24:01 2020
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Peak virtual memory: 4715 megabytes
+    Info: Processing ended: Tue Jun 16 20:19:48 2020
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:05
 
 

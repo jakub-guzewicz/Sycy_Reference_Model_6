@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="cpu" kind="cpu" version="1.0" fabric="QSYS">
  <!-- Format version 19.1 670 (Future versions may contain additional information.) -->
- <!-- 2020.06.16.13:38:48 -->
+ <!-- 2020.06.16.20:16:52 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1592307527</value>
+  <value>1592331411</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -430,10 +430,10 @@ parameters are a RESULT of the module parameters. -->
   </interface>
  </module>
  <module
-   name="hulk_finder_0"
-   kind="hulk_finder"
+   name="hulk_finder_v2_0"
+   kind="hulk_finder_v2"
    version="1.0"
-   path="hulk_finder_0">
+   path="hulk_finder_v2_0">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
   <parameter name="deviceFamily">
@@ -548,6 +548,12 @@ parameters are a RESULT of the module parameters. -->
     <role>clk_en</role>
    </port>
    <port>
+    <name>rst</name>
+    <direction>Input</direction>
+    <width>1</width>
+    <role>reset</role>
+   </port>
+   <port>
     <name>start</name>
     <direction>Input</direction>
     <width>1</width>
@@ -582,12 +588,6 @@ parameters are a RESULT of the module parameters. -->
     <direction>Input</direction>
     <width>1</width>
     <role>clk</role>
-   </port>
-   <port>
-    <name>rst</name>
-    <direction>Input</direction>
-    <width>1</width>
-    <role>reset</role>
    </port>
   </interface>
  </module>
@@ -3092,7 +3092,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="customInstSlavesSystemInfo">
    <type>java.lang.String</type>
-   <value><![CDATA[<info><slave name="hulk_finder_0" baseAddress="0" addressSpan="1" clockCycleType="VARIABLE" /></info>]]></value>
+   <value><![CDATA[<info><slave name="hulk_finder_v2_0" baseAddress="1" addressSpan="1" clockCycleType="VARIABLE" /></info>]]></value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -4674,11 +4674,11 @@ parameters are a RESULT of the module parameters. -->
    </port>
    <customInstruction>
     <isBridge>false</isBridge>
-    <moduleName>hulk_finder_0</moduleName>
+    <moduleName>hulk_finder_v2_0</moduleName>
     <slaveName>nios_custom_instruction_slave</slaveName>
-    <name>hulk_finder_0.nios_custom_instruction_slave</name>
-    <opcodeNumber>0</opcodeNumber>
-    <opcodeMnemonic>hulk_finder_0</opcodeMnemonic>
+    <name>hulk_finder_v2_0.nios_custom_instruction_slave</name>
+    <opcodeNumber>1</opcodeNumber>
+    <opcodeMnemonic>hulk_finder_v2_0</opcodeMnemonic>
    </customInstruction>
   </interface>
  </module>
@@ -8203,14 +8203,14 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="nios2_gen2_0.custom_instruction_master/hulk_finder_0.nios_custom_instruction_slave"
+   name="nios2_gen2_0.custom_instruction_master/hulk_finder_v2_0.nios_custom_instruction_slave"
    kind="nios_custom_instruction"
    version="19.1"
    start="nios2_gen2_0.custom_instruction_master"
-   end="hulk_finder_0.nios_custom_instruction_slave">
+   end="hulk_finder_v2_0.nios_custom_instruction_slave">
   <parameter name="CIName">
    <type>java.lang.String</type>
-   <value>hulk_finder_0</value>
+   <value>hulk_finder_v2_0</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -8234,7 +8234,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>long</type>
-   <value>0</value>
+   <value>1</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -8266,7 +8266,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>nios2_gen2_0</startModule>
   <startConnectionPoint>custom_instruction_master</startConnectionPoint>
-  <endModule>hulk_finder_0</endModule>
+  <endModule>hulk_finder_v2_0</endModule>
   <endConnectionPoint>nios_custom_instruction_slave</endConnectionPoint>
  </connection>
  <connection
@@ -8635,10 +8635,10 @@ parameters are a RESULT of the module parameters. -->
  </plugin>
  <plugin>
   <instanceCount>1</instanceCount>
-  <name>hulk_finder</name>
+  <name>hulk_finder_v2</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>hulk_finder</displayName>
+  <displayName>hulk_finder_v2</displayName>
   <version>1.0</version>
  </plugin>
  <plugin>

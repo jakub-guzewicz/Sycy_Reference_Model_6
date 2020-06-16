@@ -1,0 +1,934 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1592323487
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+I`EhRNCkQomfhPY]m5NzBb0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1592278718
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_avalon_sc_fifo.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1592323487.000000
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z7 o-vlog01compat -work cpu
+Z8 !s92 -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules
+Z9 tCvgOpt 0
+valtera_customins_master_translator
+R1
+!i10b 1
+!s100 iAjRYXBhGZ_FfnYD?k0U83
+IB<;5``5QNaP^6MNZN8EFo3
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_customins_master_translator.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_customins_master_translator.v
+L0 23
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_customins_master_translator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_customins_master_translator.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_controller
+Z10 !s110 1592323486
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+IVdSIkM0jZTk5Xb=gQS9V>0
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_controller.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+Z11 !s108 1592323486.000000
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_synchronizer
+R10
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+IeVn8X>8QQn56En>a291o>2
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_synchronizer.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R5
+r1
+!s85 0
+31
+R11
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R7
+R8
+R9
+vcpu
+R10
+!i10b 1
+!s100 _;UaakBLU>o>H`NmH`YCF0
+Io29<SDblS92Ke[iZ6H5NX2
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v
+L0 6
+R5
+r1
+!s85 0
+31
+R11
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v|
+!i113 1
+R7
+!s92 -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis
+R9
+vcpu_jtag_uart_0
+Z12 !s110 1592323489
+!i10b 1
+!s100 S8:c?mZ6[dgo=QiTgNggG0
+I[L3F?c;UM1?E>EnIHF=dU3
+R2
+R0
+R3
+Z13 8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_jtag_uart_0.v
+Z14 FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_jtag_uart_0.v
+L0 331
+R5
+r1
+!s85 0
+31
+Z15 !s108 1592323489.000000
+Z16 !s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_jtag_uart_0.v|
+Z17 !s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_jtag_uart_0.v|
+!i113 1
+R7
+R8
+R9
+vcpu_jtag_uart_0_scfifo_r
+R12
+!i10b 1
+!s100 FiGBo8fHL5dW`1?RJ[@Xj1
+IKV8A[M`mBMW[<8k?89P6Q2
+R2
+R0
+R3
+R13
+R14
+L0 243
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R7
+R8
+R9
+vcpu_jtag_uart_0_scfifo_w
+R12
+!i10b 1
+!s100 G;i]8j`iWLagSAFQWFa_=3
+I1J`C?dP=B0Xk:L<JzX3202
+R2
+R0
+R3
+R13
+R14
+L0 78
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R7
+R8
+R9
+vcpu_jtag_uart_0_sim_scfifo_r
+R12
+!i10b 1
+!s100 4?N2G@9a<hXafoIL6aEDC2
+IZnh>W8j7B27<HA4=184lJ0
+R2
+R0
+R3
+R13
+R14
+L0 164
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R7
+R8
+R9
+vcpu_jtag_uart_0_sim_scfifo_w
+R12
+!i10b 1
+!s100 440CF`FC7?l39WDPn=gXJ2
+Ia250_cYDb3VGalBhJnc2f2
+R2
+R0
+R3
+R13
+R14
+R4
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R7
+R8
+R9
+vcpu_mm_interconnect_0
+R1
+!i10b 1
+!s100 UAN931<9^Q:29@Q<e:1VJ2
+IdW4iVnFAh4B7BANRQ9aBb1
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R11
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v|
+!i113 1
+R7
+R8
+R9
+vcpu_mm_interconnect_0_avalon_st_adapter
+R1
+!i10b 1
+!s100 fSiEYITeiKNb>@De0nVd[0
+ILbEn6:i4TFeeR0LUMFSf_1
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0
+Z18 !s110 1592323488
+!i10b 1
+!s100 ]dI;YOnPkK4YXdJP@7oB;2
+I4^lfhA4`IFPmbHZ4=2l8d0
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z19 !s108 1592323488.000000
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0.v|
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu
+R18
+!i10b 1
+!s100 A<=Y56aaQf67z`Lk3W[^Y0
+IlFY^Z>5=I858=k;5cRNhd3
+R2
+R0
+R3
+Z20 8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v
+Z21 FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v
+L0 2834
+R5
+r1
+!s85 0
+31
+R19
+Z22 !s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v|
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_debug_slave_sysclk
+R12
+!i10b 1
+!s100 44g6Qd5j3eGoYdcjMMQRg0
+If34AL]mZJaY1bbe3JV7Tc2
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_sysclk.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_sysclk.v
+R4
+R5
+r1
+!s85 0
+31
+R15
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_debug_slave_tck
+R12
+!i10b 1
+!s100 9mk3f>ZN6?SK]R`CYSnoM2
+I]JZ3FgifJPKfccD8=Ge=b2
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_tck.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_tck.v
+R4
+R5
+r1
+!s85 0
+31
+R15
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_tck.v|
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_debug_slave_wrapper
+R12
+!i10b 1
+!s100 z61JE4LWARNO78KW4[5b;1
+IcO`XFS;GlYYfCSLLZgXQ@1
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_wrapper.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+R15
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_avalon_reg
+R18
+!i10b 1
+!s100 ^Bo?EO=GP_RX@6o]a_:?H2
+IGVAJZRL64b_N<:h_X88980
+R2
+R0
+R3
+R20
+R21
+L0 2023
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci
+R18
+!i10b 1
+!s100 AmIEhFIZ69WPkVgZXBT2b1
+I;Cc@E=_odcmX9H<ndmLd03
+R2
+R0
+R3
+R20
+R21
+L0 2362
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_break
+R18
+!i10b 1
+!s100 j^110SGHYFC3>oh^lM7z<3
+IEYLSz0Yel94j>3XXMW3C52
+R2
+R0
+R3
+R20
+R21
+L0 295
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R18
+!i10b 1
+!s100 87O:emZ6A0dH0bRTea]ET3
+I7>SW[l]R[0B]DH^azKgmD3
+R2
+R0
+R3
+R20
+R21
+L0 1265
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_dbrk
+R18
+!i10b 1
+!s100 B@1f0zgQZ`YD5`Xoz5GO91
+IKk?l2[0EnC@z=5`oIa]m10
+R2
+R0
+R3
+R20
+R21
+L0 795
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_debug
+R18
+!i10b 1
+!s100 73MZc=kRRNE0o75dgc4Xa1
+ICO[JPfWgDg9e9263Zh5CI0
+R2
+R0
+R3
+R20
+R21
+L0 153
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_dtrace
+R18
+!i10b 1
+!s100 0h_I`96:O<]OLbkB8=7kT0
+IK>_UYakhb5hdVgKME1DJH1
+R2
+R0
+R3
+R20
+R21
+L0 1183
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_fifo
+R18
+!i10b 1
+!s100 =U?;gR:heEgR9L=ej5jU<0
+INPc7?Gk_h::4b6i7Jd5BQ1
+R2
+R0
+R3
+R20
+R21
+L0 1427
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R18
+!i10b 1
+!s100 Qg9Q1SdnhZGebzS3PFz8D2
+IOV3jLQB`V@m10m>eMY`3S0
+R2
+R0
+R3
+R20
+R21
+L0 1380
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R18
+!i10b 1
+!s100 RN^=UO0hY]6@85L]VjJKD1
+IzV749Q0^B2BfbFN:Z@QUC3
+R2
+R0
+R3
+R20
+R21
+L0 1337
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_im
+R18
+!i10b 1
+!s100 oJAbk=8WAOiBj^SBab<K`3
+INH]BJlAKd`UmUI?RmJ5IV2
+R2
+R0
+R3
+R20
+R21
+L0 1936
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_itrace
+R18
+!i10b 1
+!s100 ]iSO05Ni47k2JM5^XVe5A0
+I<a2faX1ia5;4WC?K:gYaN2
+R2
+R0
+R3
+R20
+R21
+L0 982
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_pib
+R18
+!i10b 1
+!s100 04cZSd7_Qe7L8a6HjFbN?0
+ITR>`Ii;0?=bO@i1`[NMkN1
+R2
+R0
+R3
+R20
+R21
+L0 1913
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_td_mode
+R18
+!i10b 1
+!s100 XMkiNEAK@7A]R5oTNh7`T3
+I8^bF0z08HO7;JiFL8loaz3
+R2
+R0
+R3
+R20
+R21
+L0 1115
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_oci_xbrk
+R18
+!i10b 1
+!s100 Ja]cTM<5KKjD34><ZUWkI2
+I4oLa3d6kTZX@Xl3:jo@ni3
+R2
+R0
+R3
+R20
+R21
+L0 588
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_ocimem
+R18
+!i10b 1
+!s100 zhUQNRT`3LaLfJG?DOZHN1
+IZPOEOjX4[W<j8_?TW4iMH0
+R2
+R0
+R3
+R20
+R21
+L0 2181
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_nios2_performance_monitors
+R18
+!i10b 1
+!s100 m;Qio5cd84IiR[0Z[:eGd1
+I8=fV<TkhLT<cdXE4e58WN0
+R2
+R0
+R3
+R20
+R21
+L0 2006
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_ociram_sp_ram_module
+R18
+!i10b 1
+!s100 d=]9a0dm]4Jzb0kJJHSKk2
+IX@40O[bHN=5O^5=AKNm2?0
+R2
+R0
+R3
+R20
+R21
+L0 2116
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_register_bank_a_module
+R18
+!i10b 1
+!s100 0EbO7moHUcT6R@CiOHHoc3
+I`:Bi_CU]57]]0[g_??a9@0
+R2
+R0
+R3
+R20
+R21
+R4
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_register_bank_b_module
+R18
+!i10b 1
+!s100 @?lgaPce9HW=1YBdDb];O1
+IH0Hc^U@ckFW0Kbk4EQed`3
+R2
+R0
+R3
+R20
+R21
+L0 87
+R5
+r1
+!s85 0
+31
+R19
+R22
+R23
+!i113 1
+R7
+R8
+R9
+vcpu_nios2_gen2_0_cpu_test_bench
+R12
+!i10b 1
+!s100 18>;FalkG13hcnU_o1j]H1
+IXS?k^eoM1ia4:P5^PEcCB1
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_test_bench.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+R15
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_test_bench.v|
+!i113 1
+R7
+R8
+R9
+vcpu_onchip_memory2_0
+R18
+!i10b 1
+!s100 EOEVijkn1nK=`GTI<]O]U1
+In=n4cCKcoVgmTUOGkg4S]3
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_onchip_memory2_0.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_onchip_memory2_0.v
+R4
+R5
+r1
+!s85 0
+31
+R19
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_onchip_memory2_0.v|
+!i113 1
+R7
+R8
+R9
+vcpu_performance_counter_0
+R18
+!i10b 1
+!s100 h27c_M3`kN:clUb80kRMX2
+I_cjO1KK`jh6nMG@KlKN6A0
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_performance_counter_0.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_performance_counter_0.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_performance_counter_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_performance_counter_0.v|
+!i113 1
+R7
+R8
+R9
+vcpu_pio_0
+R1
+!i10b 1
+!s100 GCDUWHYnWQ8PQ60<WGAa?1
+IhmVY=QHSC9kCgN:@>TUX_0
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_0.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_0.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_0.v|
+!i113 1
+R7
+R8
+R9
+vcpu_pio_1
+R1
+!i10b 1
+!s100 LPzaU^5HYNSJj]Y8TbU?:1
+IKi`E1BiKz6f_Q5m1I4=G?1
+R2
+R0
+R3
+8E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_1.v
+FE:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_1.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|cpu|+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules|E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_1.v|
+!i113 1
+R7
+R8
+R9

@@ -1,0 +1,585 @@
+# Reading E:/QuartusLite/modelsim_ase/tcl/vsim/pref.tcl
+# do sycy_projekt_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying E:/QuartusLite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/singleTeaBlock.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:44 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/singleTeaBlock.v 
+# -- Compiling module singleTeaBlock
+# 
+# Top level modules:
+# 	singleTeaBlock
+# End time: 18:04:45 on Jun 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/random_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:45 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/random_generator.v 
+# -- Compiling module random_generator
+# 
+# Top level modules:
+# 	random_generator
+# End time: 18:04:45 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/pdfCheckerFsm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:45 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/pdfCheckerFsm.v 
+# -- Compiling module pdfCheckerFsm
+# 
+# Top level modules:
+# 	pdfCheckerFsm
+# End time: 18:04:45 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/fiveBitToAsciiDecoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:45 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/fiveBitToAsciiDecoder.v 
+# -- Compiling module fiveBitToAsciiDecoder
+# 
+# Top level modules:
+# 	fiveBitToAsciiDecoder
+# End time: 18:04:46 on Jun 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/sycy_projekt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:46 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/sycy_projekt.v 
+# -- Compiling module sycy_projekt
+# 
+# Top level modules:
+# 	sycy_projekt
+# End time: 18:04:46 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib cpu
+# vmap cpu cpu
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap cpu cpu 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:46 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 18:04:46 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:46 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_controller.v 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 18:04:46 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:46 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_reset_synchronizer.v 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 18:04:46 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:46 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v 
+# -- Compiling module cpu_mm_interconnect_0
+# 
+# Top level modules:
+# 	cpu_mm_interconnect_0
+# End time: 18:04:47 on Jun 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:47 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v 
+# -- Compiling module cpu_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	cpu_mm_interconnect_0_avalon_st_adapter
+# End time: 18:04:47 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:47 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 18:04:47 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_customins_master_translator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:47 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/altera_customins_master_translator.v 
+# -- Compiling module altera_customins_master_translator
+# 
+# Top level modules:
+# 	altera_customins_master_translator
+# End time: 18:04:47 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:47 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_1.v 
+# -- Compiling module cpu_pio_1
+# 
+# Top level modules:
+# 	cpu_pio_1
+# End time: 18:04:47 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:47 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_pio_0.v 
+# -- Compiling module cpu_pio_0
+# 
+# Top level modules:
+# 	cpu_pio_0
+# End time: 18:04:47 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_performance_counter_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:47 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_performance_counter_0.v 
+# -- Compiling module cpu_performance_counter_0
+# 
+# Top level modules:
+# 	cpu_performance_counter_0
+# End time: 18:04:48 on Jun 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_onchip_memory2_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:48 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_onchip_memory2_0.v 
+# -- Compiling module cpu_onchip_memory2_0
+# 
+# Top level modules:
+# 	cpu_onchip_memory2_0
+# End time: 18:04:48 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:48 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0.v 
+# -- Compiling module cpu_nios2_gen2_0
+# 
+# Top level modules:
+# 	cpu_nios2_gen2_0
+# End time: 18:04:48 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:48 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v 
+# -- Compiling module cpu_nios2_gen2_0_cpu_register_bank_a_module
+# -- Compiling module cpu_nios2_gen2_0_cpu_register_bank_b_module
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_debug
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_break
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_xbrk
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_dbrk
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_itrace
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_td_mode
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_dtrace
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_fifo
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_pib
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci_im
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_performance_monitors
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_avalon_reg
+# -- Compiling module cpu_nios2_gen2_0_cpu_ociram_sp_ram_module
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_ocimem
+# -- Compiling module cpu_nios2_gen2_0_cpu_nios2_oci
+# -- Compiling module cpu_nios2_gen2_0_cpu
+# 
+# Top level modules:
+# 	cpu_nios2_gen2_0_cpu_nios2_performance_monitors
+# 	cpu_nios2_gen2_0_cpu
+# End time: 18:04:49 on Jun 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_sysclk.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:49 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_sysclk.v 
+# -- Compiling module cpu_nios2_gen2_0_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	cpu_nios2_gen2_0_cpu_debug_slave_sysclk
+# End time: 18:04:49 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_tck.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:49 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_tck.v 
+# -- Compiling module cpu_nios2_gen2_0_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	cpu_nios2_gen2_0_cpu_debug_slave_tck
+# End time: 18:04:49 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:49 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_wrapper.v 
+# -- Compiling module cpu_nios2_gen2_0_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	cpu_nios2_gen2_0_cpu_debug_slave_wrapper
+# End time: 18:04:49 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_test_bench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:49 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_test_bench.v 
+# -- Compiling module cpu_nios2_gen2_0_cpu_test_bench
+# 
+# Top level modules:
+# 	cpu_nios2_gen2_0_cpu_test_bench
+# End time: 18:04:49 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_jtag_uart_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:49 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_jtag_uart_0.v 
+# -- Compiling module cpu_jtag_uart_0_sim_scfifo_w
+# -- Compiling module cpu_jtag_uart_0_scfifo_w
+# -- Compiling module cpu_jtag_uart_0_sim_scfifo_r
+# -- Compiling module cpu_jtag_uart_0_scfifo_r
+# -- Compiling module cpu_jtag_uart_0
+# 
+# Top level modules:
+# 	cpu_jtag_uart_0
+# End time: 18:04:49 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/hulkFinder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:04:50 on Jun 16,2020
+# vlog -reportprogress 300 -vlog01compat -work cpu "+incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules" E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/hulkFinder.v 
+# -- Compiling module hulkFinder
+# ** Error: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/hulkFinder.v(32): (vlog-2730) Undefined variable: 'LfsrStateWire31'.
+# ** Error (suppressible): E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/hulkFinder.v(180): (vlog-2388) 'LfsrStateWire31' already declared in this scope (hulkFinder).
+# End time: 18:04:50 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/QuartusLite/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./sycy_projekt_run_msim_rtl_verilog.do line 33
+# E:/QuartusLite/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work cpu +incdir+E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules {E:/Polibuda/SYCY/Sycy_..."
+vsim work.sycy_projekt
+# vsim work.sycy_projekt 
+# Start time: 18:05:14 on Jun 16,2020
+# Loading work.sycy_projekt
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/sycy_projekt.v(9): Instantiation of 'cpu' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sycy_projekt File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/sycy_projekt.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 18:05:15 on Jun 16,2020, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim cpu.cpu
+# vsim cpu.cpu 
+# Start time: 18:05:44 on Jun 16,2020
+# Loading cpu.cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v(128): Instantiation of 'hulkFinder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.cpu_jtag_uart_0
+# Loading cpu.cpu_jtag_uart_0_scfifo_w
+# Loading cpu.cpu_jtag_uart_0_sim_scfifo_w
+# Loading cpu.cpu_jtag_uart_0_scfifo_r
+# Loading cpu.cpu_jtag_uart_0_sim_scfifo_r
+# Loading cpu.cpu_nios2_gen2_0
+# Loading cpu.cpu_nios2_gen2_0_cpu
+# Loading cpu.cpu_nios2_gen2_0_cpu_test_bench
+# Loading cpu.cpu_nios2_gen2_0_cpu_register_bank_a_module
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v(50): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/nios2_gen2_0/cpu/cpu_nios2_gen2_0_cpu_register_bank_a File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.cpu_nios2_gen2_0_cpu_register_bank_b_module
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v(116): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/nios2_gen2_0/cpu/cpu_nios2_gen2_0_cpu_register_bank_b File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_debug
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v(214): Instantiation of 'altera_std_synchronizer' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/nios2_gen2_0/cpu/the_cpu_nios2_gen2_0_cpu_nios2_oci/the_cpu_nios2_gen2_0_cpu_nios2_oci_debug File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_break
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_xbrk
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_dbrk
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_itrace
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_dtrace
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_td_mode
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_fifo
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_pib
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_oci_im
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_avalon_reg
+# Loading cpu.cpu_nios2_gen2_0_cpu_nios2_ocimem
+# Loading cpu.cpu_nios2_gen2_0_cpu_ociram_sp_ram_module
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v(2147): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/nios2_gen2_0/cpu/the_cpu_nios2_gen2_0_cpu_nios2_oci/the_cpu_nios2_gen2_0_cpu_nios2_ocimem/cpu_nios2_gen2_0_cpu_ociram_sp_ram File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.cpu_nios2_gen2_0_cpu_debug_slave_wrapper
+# Loading cpu.cpu_nios2_gen2_0_cpu_debug_slave_tck
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_tck.v(196): Instantiation of 'altera_std_synchronizer' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/nios2_gen2_0/cpu/the_cpu_nios2_gen2_0_cpu_nios2_oci/the_cpu_nios2_gen2_0_cpu_debug_slave_wrapper/the_cpu_nios2_gen2_0_cpu_debug_slave_tck File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_tck.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_tck.v(207): Instantiation of 'altera_std_synchronizer' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/nios2_gen2_0/cpu/the_cpu_nios2_gen2_0_cpu_nios2_oci/the_cpu_nios2_gen2_0_cpu_debug_slave_wrapper/the_cpu_nios2_gen2_0_cpu_debug_slave_tck File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_tck.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.cpu_nios2_gen2_0_cpu_debug_slave_sysclk
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_sysclk.v(84): Instantiation of 'altera_std_synchronizer' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/nios2_gen2_0/cpu/the_cpu_nios2_gen2_0_cpu_nios2_oci/the_cpu_nios2_gen2_0_cpu_debug_slave_wrapper/the_cpu_nios2_gen2_0_cpu_debug_slave_sysclk File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_sysclk.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_sysclk.v(95): Instantiation of 'altera_std_synchronizer' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/nios2_gen2_0/cpu/the_cpu_nios2_gen2_0_cpu_nios2_oci/the_cpu_nios2_gen2_0_cpu_debug_slave_wrapper/the_cpu_nios2_gen2_0_cpu_debug_slave_sysclk File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_nios2_gen2_0_cpu_debug_slave_sysclk.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.cpu_onchip_memory2_0
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_onchip_memory2_0.v(60): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/onchip_memory2_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_onchip_memory2_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.cpu_performance_counter_0
+# Loading cpu.cpu_pio_0
+# Loading cpu.cpu_pio_1
+# Loading cpu.altera_customins_master_translator
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v(305): Instantiation of 'cpu_nios2_gen2_0_custom_instruction_master_multi_xconnect' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v(348): Instantiation of 'altera_customins_slave_translator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.cpu_mm_interconnect_0
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(510): Instantiation of 'altera_merlin_master_translator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(570): Instantiation of 'altera_merlin_master_translator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(632): Instantiation of 'altera_merlin_slave_translator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(696): Instantiation of 'altera_merlin_slave_translator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(760): Instantiation of 'altera_merlin_slave_translator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(824): Instantiation of 'altera_merlin_slave_translator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(888): Instantiation of 'altera_merlin_slave_translator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(952): Instantiation of 'altera_merlin_slave_translator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1042): Instantiation of 'altera_merlin_master_agent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1123): Instantiation of 'altera_merlin_master_agent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1190): Instantiation of 'altera_merlin_slave_agent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.altera_avalon_sc_fifo
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1315): Instantiation of 'altera_merlin_slave_agent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1440): Instantiation of 'altera_merlin_slave_agent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1565): Instantiation of 'altera_merlin_slave_agent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1690): Instantiation of 'altera_merlin_slave_agent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1815): Instantiation of 'altera_merlin_slave_agent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1902): Instantiation of 'cpu_mm_interconnect_0_router' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1918): Instantiation of 'cpu_mm_interconnect_0_router_001' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1934): Instantiation of 'cpu_mm_interconnect_0_router_002' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1950): Instantiation of 'cpu_mm_interconnect_0_router_002' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1966): Instantiation of 'cpu_mm_interconnect_0_router_004' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1982): Instantiation of 'cpu_mm_interconnect_0_router_004' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(1998): Instantiation of 'cpu_mm_interconnect_0_router_002' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2014): Instantiation of 'cpu_mm_interconnect_0_router_002' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2030): Instantiation of 'cpu_mm_interconnect_0_cmd_demux' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2077): Instantiation of 'cpu_mm_interconnect_0_cmd_demux_001' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2100): Instantiation of 'cpu_mm_interconnect_0_cmd_mux' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2117): Instantiation of 'cpu_mm_interconnect_0_cmd_mux' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2134): Instantiation of 'cpu_mm_interconnect_0_cmd_mux_002' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2157): Instantiation of 'cpu_mm_interconnect_0_cmd_mux_002' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2180): Instantiation of 'cpu_mm_interconnect_0_cmd_mux' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2197): Instantiation of 'cpu_mm_interconnect_0_cmd_mux' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2214): Instantiation of 'cpu_mm_interconnect_0_rsp_demux' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2231): Instantiation of 'cpu_mm_interconnect_0_rsp_demux' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2248): Instantiation of 'cpu_mm_interconnect_0_cmd_demux_001' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2271): Instantiation of 'cpu_mm_interconnect_0_cmd_demux_001' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2294): Instantiation of 'cpu_mm_interconnect_0_rsp_demux' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2311): Instantiation of 'cpu_mm_interconnect_0_rsp_demux' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2328): Instantiation of 'cpu_mm_interconnect_0_rsp_mux' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v(2375): Instantiation of 'cpu_mm_interconnect_0_rsp_mux_001' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.cpu_mm_interconnect_0_avalon_st_adapter
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v(190): Instantiation of 'cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0/avalon_st_adapter File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v(190): Instantiation of 'cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0/avalon_st_adapter_001 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v(190): Instantiation of 'cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0/avalon_st_adapter_002 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v(190): Instantiation of 'cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0/avalon_st_adapter_003 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v(190): Instantiation of 'cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0/avalon_st_adapter_004 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v(190): Instantiation of 'cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/mm_interconnect_0/avalon_st_adapter_005 File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/submodules/cpu_mm_interconnect_0_avalon_st_adapter.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# ** Error: (vsim-3033) E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v(441): Instantiation of 'cpu_irq_mapper' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu File: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/cpu/synthesis/cpu.v
+#         Searched libraries:
+#             E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/simulation/modelsim/cpu
+# Loading cpu.altera_reset_controller
+# Error loading design
+# End time: 18:05:44 on Jun 16,2020, Elapsed time: 0:00:00
+# Errors: 59, Warnings: 0
+vsim work.random_generator
+# vsim work.random_generator 
+# Start time: 18:05:49 on Jun 16,2020
+# Loading work.random_generator
+# End time: 18:07:42 on Jun 16,2020, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0

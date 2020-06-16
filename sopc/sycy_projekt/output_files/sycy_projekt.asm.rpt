@@ -1,5 +1,5 @@
 Assembler report for sycy_projekt
-Tue Jun 16 14:23:47 2020
+Tue Jun 16 20:19:32 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -11,7 +11,7 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
   3. Assembler Settings
   4. Assembler Encrypted IP Cores Summary
   5. Assembler Generated Files
-  6. Assembler Device Options: C:/Users/Kaz/Desktop/sycy_projekt/output_files/sycy_projekt.sof
+  6. Assembler Device Options: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/output_files/sycy_projekt.sof
   7. Assembler Messages
 
 
@@ -39,7 +39,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Jun 16 14:23:47 2020 ;
+; Assembler Status      ; Successful - Tue Jun 16 20:19:32 2020 ;
 ; Revision Name         ; sycy_projekt                          ;
 ; Top-level Entity Name ; sycy_projekt                          ;
 ; Family                ; Cyclone IV E                          ;
@@ -64,23 +64,23 @@ https://fpgasoftware.intel.com/eula.
 +--------+------------------------+--------------+
 
 
-+-----------------------------------------------------------------+
-; Assembler Generated Files                                       ;
-+-----------------------------------------------------------------+
-; File Name                                                       ;
-+-----------------------------------------------------------------+
-; C:/Users/Kaz/Desktop/sycy_projekt/output_files/sycy_projekt.sof ;
-+-----------------------------------------------------------------+
++------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                      ;
++------------------------------------------------------------------------------------------------+
+; File Name                                                                                      ;
++------------------------------------------------------------------------------------------------+
+; E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/output_files/sycy_projekt.sof ;
++------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Kaz/Desktop/sycy_projekt/output_files/sycy_projekt.sof ;
-+----------------+--------------------------------------------------------------------------+
-; Option         ; Setting                                                                  ;
-+----------------+--------------------------------------------------------------------------+
-; JTAG usercode  ; 0x00CB0C82                                                               ;
-; Checksum       ; 0x00CB0C82                                                               ;
-+----------------+--------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/Polibuda/SYCY/Sycy_Reference_Model_6-master/sopc/sycy_projekt/output_files/sycy_projekt.sof ;
++----------------+---------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                 ;
++----------------+---------------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x00D1A732                                                                                              ;
+; Checksum       ; 0x00D1A732                                                                                              ;
++----------------+---------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -89,14 +89,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Jun 16 14:23:42 2020
+    Info: Processing started: Tue Jun 16 20:19:27 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off sycy_projekt -c sycy_projekt
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4741 megabytes
-    Info: Processing ended: Tue Jun 16 14:23:47 2020
+    Info: Peak virtual memory: 4744 megabytes
+    Info: Processing ended: Tue Jun 16 20:19:32 2020
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:05
 

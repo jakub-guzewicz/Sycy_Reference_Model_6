@@ -133,8 +133,8 @@
  *
  */
 
-#define ALT_CI_HULK_FINDER_0(A,B) __builtin_custom_inii(ALT_CI_HULK_FINDER_0_N,(A),(B))
-#define ALT_CI_HULK_FINDER_0_N 0x0
+#define ALT_CI_HULK_FINDER_V2_0(A,B) __builtin_custom_inii(ALT_CI_HULK_FINDER_V2_0_N,(A),(B))
+#define ALT_CI_HULK_FINDER_V2_0_N 0x0
 
 
 /*

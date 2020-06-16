@@ -25,6 +25,14 @@
          type = "int";
       }
    }
+   element hulk_finder_v2_0
+   {
+      datum _sortIndex
+      {
+         value = "8";
+         type = "int";
+      }
+   }
    element jtag_uart_0
    {
       datum _sortIndex
@@ -152,7 +160,12 @@
   <parameter name="inputClockFrequency" value="0" />
   <parameter name="resetSynchronousEdges" value="NONE" />
  </module>
- <module name="hulk_finder_0" kind="hulk_finder" version="1.0" enabled="1" />
+ <module name="hulk_finder_0" kind="hulk_finder" version="1.0" enabled="0" />
+ <module
+   name="hulk_finder_v2_0"
+   kind="hulk_finder_v2"
+   version="1.0"
+   enabled="1" />
  <module
    name="jtag_uart_0"
    kind="altera_avalon_jtag_uart"
@@ -189,7 +202,7 @@
   <parameter name="cpuArchRev" value="1" />
   <parameter name="cpuID" value="0" />
   <parameter name="cpuReset" value="false" />
-  <parameter name="customInstSlavesSystemInfo"><![CDATA[<info><slave name="hulk_finder_0" baseAddress="0" addressSpan="1" clockCycleType="VARIABLE" /></info>]]></parameter>
+  <parameter name="customInstSlavesSystemInfo"><![CDATA[<info><slave name="hulk_finder_v2_0" baseAddress="1" addressSpan="1" clockCycleType="VARIABLE" /></info>]]></parameter>
   <parameter name="customInstSlavesSystemInfo_nios_a" value="&lt;info/&gt;" />
   <parameter name="customInstSlavesSystemInfo_nios_b" value="&lt;info/&gt;" />
   <parameter name="customInstSlavesSystemInfo_nios_c" value="&lt;info/&gt;" />
@@ -522,6 +535,15 @@
   <parameter name="CIName" value="hulk_finder_0" />
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0" />
+ </connection>
+ <connection
+   kind="nios_custom_instruction"
+   version="19.1"
+   start="nios2_gen2_0.custom_instruction_master"
+   end="hulk_finder_v2_0.nios_custom_instruction_slave">
+  <parameter name="CIName" value="hulk_finder_v2_0" />
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="1" />
  </connection>
  <connection
    kind="reset"
